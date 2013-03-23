@@ -25,15 +25,15 @@ public class JdbcTester {
   String driverName ="oracle.jdbc.driver.OracleDriver"; // laedt JDBC-Treiber fuer Oracle
 	
 //  String serverName = "194.95.45.165"; // Telematik-Oracle-Server
-  String serverName = "localhost"; // lokaler Oracle-Server
+  String serverName = "192.168.178.39"; // lokaler Oracle-Server
   String portNumber = "1521";
 //  String sid = "orcl"; // SID des Telematik-Oracle-Servers
   String sid = "xe"; // SID fuer Oracle XE
   
   String url="jdbc:oracle:thin:@"+serverName+":"+portNumber+":"+sid; // Connection-String fuer Oracle
   
-  String username = "terra"; // entspr. anpassen
-  String password = "terra"; // entspr. anpassen
+  String username = "LABORMANAGEMENT"; // entspr. anpassen
+  String password = "LABORMANAGEMENT"; // entspr. anpassen
   
 //  public JdbcTester() {}
   
